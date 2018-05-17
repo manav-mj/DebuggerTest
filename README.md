@@ -26,5 +26,5 @@ change the
 
 14. now run the java application
 
-###Output Screenshot
+### Output Screenshot
 ![capture](https://user-images.githubusercontent.com/22222147/40159836-a1ff5214-59c8-11e8-90fc-01cbb2972274.PNG)
