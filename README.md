@@ -18,10 +18,13 @@ This android debugger attaches to a waiting android virtual machine and watches 
 9. open terminal or cmd in your debugger machine
 10. type `adb devices`
 11. type `adb jdwp` and press ctrl/command + c
-12. type `adb forward tcp:7777 jdwp:[last pid in above command output]
+12. type `adb forward tcp:7777 jdwp:[last pid in above command output]`
 13. now open the java application in your preffered editor and open `FieldMonitor.java` 
 change the 
 `PKG_NAME` to the package name of your android app
 `CLASS_NAME` to the class containing mouseX
 
 14. now run the java application
+
+###Output Screenshot
+![capture](https://user-images.githubusercontent.com/22222147/40159836-a1ff5214-59c8-11e8-90fc-01cbb2972274.PNG)
