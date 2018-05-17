@@ -1,6 +1,6 @@
 # Test Android Debugger using JDI
-### What it does
-This android debugger attaches to a waiting android virtual machine and watches the mouseX variable displaying the old and new value of the variable in the console.
+### Purpose
+This android debugger attaches to a waiting android virtual machine and watches the mouseX variable displaying the old and new value of the variable in the console. This Debugger is made as a part of GSoC'18 as a basic prototype for [Android Debugger for PDE](https://summerofcode.withgoogle.com/projects/#5029506465660928)
 
 ### Dependencies
 1. adb tools and jdk pre installed
